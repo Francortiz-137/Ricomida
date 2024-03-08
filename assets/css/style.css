@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400..700&family=Lobster&display=swap');
+
+:root{
+    --regular: 400;
+    --bold: 700;
+    --dark:  #373a3c;
+    --light: #dddddd;
+    --black:#000;
+    --white: #fff;
+    --danger: #dc3545;
+}
+
+.cabin-regular {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--regular);
+    font-style: normal;
+}
+
+.cabin-bold {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--bold);
+    font-style: normal;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: var(--regular);
+    font-style: normal;
+}
+
+.newsletter{
+    background-color: var(--danger);
+}
+
+.logo{
+    font-size: 2.3rem;
+}
+
+.w-20{
+    width: 24.5%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.carousel-indicators .circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px; 
+    background-color: gray;
+    border: 1px solid gray;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.carousel-indicators .active {
+    background-color: var(--dark);
+    border-color: var(--dark);
+}
+
+.card{
+    width: 18rem;
+}
+
+.card-wrapper{
+    width: 18.8rem;
+}
